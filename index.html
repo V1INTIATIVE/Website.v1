@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="INITIATIVE.V1 – A collaborative platform for open-source engineers and developers building the future of open technology." />
+  <title>INITIATIVE.V1 — Origin</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="dot"></div>
+        INITIATIVE.V1
+      </div>
+      <nav>
+        <div class="nav-links">
+          <a href="index.html" class="active">Origin.V1</a>
+          <a href="clauses.html">Clause.V1</a>
+          <a href="contact.html">Communications.V1</a>
+          <a href="updates.html">Events.V1</a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Origin Section -->
+  <section class="hero" id="origin">
+    <div class="hero-inner">
+      <p class="eyebrow">WELCOME TO</p>
+      <h1 class="title">INITIATIVE.V1</h1>
+      <p class="tagline">
+        A collaborative platform for engineers and developers building the future of open technology.
+      </p>
+
+      <div class="hero-ctas">
+        <a href="clauses.html" class="btn btn-solid">Explore Clause.V1</a>
+        <a href="contact.html" class="btn btn-outline">Join Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Overview -->
+  <section class="container">
+    <h2 class="section-title">Our Vision</h2>
+    <p class="muted">
+      INITIATIVE.V1 is a modern, open-source collective focused on shaping a transparent and high-tech future through collaboration, shared resources, and open standards.  
+      Our community drives innovation by merging futuristic design, decentralized development, and open engineering.
+    </p>
+  </section>
+
+  <!-- Core Principles -->
+  <section class="container">
+    <h2 class="section-title">Core Principles</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <h4>Openness</h4>
+        <p>All resources, data, and frameworks are openly accessible to ensure innovation is shared universally.</p>
+      </div>
+      <div class="card">
+        <h4>Collaboration</h4>
+        <p>We connect global developers through transparent systems, fostering true open-source synergy.</p>
+      </div>
+      <div class="card">
+        <h4>Evolution</h4>
+        <p>INITIATIVE.V1 evolves continuously — adapting to new technologies, design systems, and developer workflows.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="container" style="text-align:center;">
+    <h2 class="section-title glow-text">Join the Network</h2>
+    <p class="muted">Be part of the next generation of open, transparent innovation.</p>
+    <div style="margin-top:16px;">
+      <a href="contact.html" class="btn btn-solid">Connect Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 INITIATIVE.V1 — Open-source Collective for Future Builders.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile menu toggle
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+    });
+  </script>
+
+</body>
+</html>
+

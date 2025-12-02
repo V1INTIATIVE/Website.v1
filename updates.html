@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Events.V1 — The updates and announcements board for INITIATIVE.V1." />
+  <title>INITIATIVE.V1 — Events.V1</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-inner container">
+      <div class="brand">
+        <div class="dot"></div>
+        INITIATIVE.V1
+      </div>
+      <nav>
+        <div class="nav-links">
+          <a href="index.html">Origin.V1</a>
+          <a href="clauses.html">Clause.V1</a>
+          <a href="contact.html">Communications.V1</a>
+          <a href="updates.html" class="active">Events.V1</a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="events">
+    <div class="hero-inner">
+      <p class="eyebrow">System Logs & Announcements</p>
+      <h1 class="title">Events.V1</h1>
+      <p class="tagline">Ongoing transmissions, mission logs, and collective updates from INITIATIVE.V1.</p>
+    </div>
+  </section>
+
+  <!-- Updates Board -->
+  <section class="container">
+    <h2 class="section-title">Recent Logs</h2>
+
+    <div class="updates-board">
+
+      <div class="update-card">
+        <div class="update-header">
+          <span class="update-date">NOV 13 2025</span>
+          <h3 class="update-title">Launch of INITIATIVE.V1 Framework</h3>
+        </div>
+        <p>
+          INITIATIVE.V1 is now live — a decentralized open-source collective for engineering and digital innovation. 
+          The core principles have been published in Clause.V1.
+        </p>
+      </div>
+
+      <div class="update-card">
+        <div class="update-header">
+          <span class="update-date">NOV 18 2025</span>
+          <h3 class="update-title">Project Submission Node Opening</h3>
+        </div>
+        <p>
+          Contributors will soon be able to submit engineering modules, frameworks, and research tools through the shared 
+          network interface. Details coming soon.
+        </p>
+      </div>
+
+      <div class="update-card">
+        <div class="update-header">
+          <span class="update-date">DEC 02 2025</span>
+          <h3 class="update-title">Event: Collective Sync — Open Network Assembly</h3>
+        </div>
+        <p>
+          A virtual assembly for all members to discuss development protocols, review current projects, 
+          and outline the roadmap for 2026. Open to all collaborators.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 INITIATIVE.V1 — Events & System Logs Board.</p>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => links.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
+
